@@ -1,0 +1,505 @@
+{
+  "uuid": "8d75efc161cbc3ba0fa9afefa992fcca",
+  "path": "Offline/Development%20Board%20V1.2",
+  "name": "Development Board V1.2",
+  "content": "",
+  "created_at": "2024-12-21 22:55:55",
+  "updated_at": "2024-12-21 22:55:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "995ccacd1a8def54323f0dc4bf9efae3",
+      "title": "Development Board V1.2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "74d9dc10bbe64ab29ec54a475ab4a6f7": 1,
+        "d9bb083abfc14583a00c0f49e0a1ec1a": 2,
+        "21f8f80a3f7c3c2b00b33f71a31ff6ef": 1,
+        "588dac9f81df8f83843513972963b454": 1,
+        "f6b1380ff5ca4318b2f8c343ab991eb7": 1,
+        "9667b4c8c2a179a9bf96c8b8066d1745": 2,
+        "964deed20e4b40588d91962f3845d59e": 1,
+        "3cc9ba716f874e4ea9f1020722a1063e": 1,
+        "f226e3ed0d6d4494ad5a428136a63dac": 17,
+        "f1e41659799e41d99d4e2fcadc70469b": 2,
+        "985fb5202ca94727873819409442f009": 1,
+        "8af1808f9c6649ad9bc945783373528e": 18,
+        "ec8ccaf831434598a1602f598573214b": 8,
+        "38fa5d7ac55d45e28c1f907cfcb6f015": 5,
+        "1cc4daaab5724a27b815489e79ca2de2": 4,
+        "db51d75de8d84d03929b6ea4f629a892": 1,
+        "405b28d848844021b084a28ef02433c2": 1,
+        "a9e6d24bd0444ae3a73a63a8d86b144e": 1,
+        "bfca0a57354541afd28a0c868f900188": 1,
+        "3e8a854a855b4703869d72763cd68dc3": 1,
+        "ebdce2da92444e34954f507ead8d8b17": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CR2032",
+          1,
+          "BAT-TH_BS-8-1",
+          "B1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Q&J",
+            "BOM_Manufacturer Part": "BS-8-1",
+            "BOM_Supplier Part": "C70378",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4be115ce96324d87926efa83497891ea",
+            "uuid": "bfca0a57354541afd28a0c868f900188"
+          }
+        ],
+        [
+          "100n",
+          3,
+          "SPARKFUN-CAPACITORS_0805",
+          "C1,C2,C8",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "00c4a0b803f045d2b367f3d1e844d2b4",
+            "uuid": "8af1808f9c6649ad9bc945783373528e"
+          }
+        ],
+        [
+          "47u",
+          1,
+          "SPARKFUN-CAPACITORS_0805",
+          "C3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "00c4a0b803f045d2b367f3d1e844d2b4",
+            "uuid": "8af1808f9c6649ad9bc945783373528e"
+          }
+        ],
+        [
+          "18p",
+          2,
+          "SPARKFUN-CAPACITORS_0805",
+          "C4,C5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "00c4a0b803f045d2b367f3d1e844d2b4",
+            "uuid": "8af1808f9c6649ad9bc945783373528e"
+          }
+        ],
+        [
+          "100nF",
+          4,
+          "SPARKFUN-CAPACITORS_0805",
+          "C6,C7,C19,C20",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "00c4a0b803f045d2b367f3d1e844d2b4",
+            "uuid": "8af1808f9c6649ad9bc945783373528e"
+          }
+        ],
+        [
+          "4u7",
+          2,
+          "SPARKFUN-CAPACITORS_0805",
+          "C9,C12",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "00c4a0b803f045d2b367f3d1e844d2b4",
+            "uuid": "8af1808f9c6649ad9bc945783373528e"
+          }
+        ],
+        [
+          "1u",
+          2,
+          "SPARKFUN-CAPACITORS_0805",
+          "C10,C11",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "00c4a0b803f045d2b367f3d1e844d2b4",
+            "uuid": "8af1808f9c6649ad9bc945783373528e"
+          }
+        ],
+        [
+          "4.7uF",
+          1,
+          "4.7 UF TANTALUM CAPACITOR",
+          "C13",
+          {
+            "BOM_Manufacturer": "AVX",
+            "BOM_Manufacturer Part": "TRJB475K025RRJ",
+            "BOM_Supplier": "Element14",
+            "BOM_Supplier Part": "1672557",
+            "puuid": "3a2d3279c0b54ef0b376eef35ec6a130",
+            "uuid": "985fb5202ca94727873819409442f009"
+          }
+        ],
+        [
+          "2200pF",
+          1,
+          "SPARKFUN-CAPACITORS_0805",
+          "C14",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "00c4a0b803f045d2b367f3d1e844d2b4",
+            "uuid": "8af1808f9c6649ad9bc945783373528e"
+          }
+        ],
+        [
+          "0,01uF",
+          2,
+          "SPARKFUN-CAPACITORS_0805",
+          "C15,C16",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "00c4a0b803f045d2b367f3d1e844d2b4",
+            "uuid": "8af1808f9c6649ad9bc945783373528e"
+          }
+        ],
+        [
+          "0,1uF",
+          1,
+          "SPARKFUN-CAPACITORS_0805",
+          "C17",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "00c4a0b803f045d2b367f3d1e844d2b4",
+            "uuid": "8af1808f9c6649ad9bc945783373528e"
+          }
+        ],
+        [
+          "10000uF",
+          1,
+          "K5BCQ 10UF 16V ELECTROLYTIC WIDE",
+          "C18",
+          {
+            "BOM_Descripción": "CAPACITOR ELECTROLITICO 10000uF X 25V D22MM",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d949fb0d6d084bf6a64997d6d0b2ddc8",
+            "uuid": "db51d75de8d84d03929b6ea4f629a892"
+          }
+        ],
+        [
+          "LED0805_R",
+          5,
+          "LED0805-RD",
+          "D1,LED1,PWR,RX,TX",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900004154",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "D21121000251-LED0805_R",
+            "puuid": "87eb4f3722b74f8d8d8aedd070854f15",
+            "uuid": "38fa5d7ac55d45e28c1f907cfcb6f015"
+          }
+        ],
+        [
+          "5817",
+          1,
+          "SCHOTTKY-SOD-123",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C727113",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "1N5817W",
+            "BOM_LCSC Assembly": "",
+            "puuid": "cca5c7a47e5342959e8bcdeb801ba32c",
+            "uuid": "f6b1380ff5ca4318b2f8c343ab991eb7"
+          }
+        ],
+        [
+          "500mA",
+          1,
+          "F1210",
+          "F1",
+          {
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "000",
+            "BOM_Manufacturer": "0",
+            "BOM_Manufacturer Part": "00",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b1a056b061d14265aafead66fd903fef",
+            "uuid": "964deed20e4b40588d91962f3845d59e"
+          }
+        ],
+        [
+          "UPDI",
+          1,
+          "210S-3X1/2.54",
+          "H3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "Header2.54mm 1*3P",
+            "BOM_Supplier Part": "C49257",
+            "puuid": "b350a5ab74404fc5bfc6e7057bd9bacd",
+            "uuid": "21f8f80a3f7c3c2b00b33f71a31ff6ef"
+          }
+        ],
+        [
+          "Mountinghole_4mm",
+          4,
+          "MOUNTINGHOLE_4MM_PAD",
+          "MH1,MH2,MH3,MH4",
+          {
+            "BOM_Manufacturer Part": "Mounting hole",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a719ec543cba4c9a80134ea895503a84",
+            "uuid": "1cc4daaab5724a27b815489e79ca2de2"
+          }
+        ],
+        [
+          "1k",
+          7,
+          "0805_RESISTOR",
+          "R1,R2,R3,R5,R6,R13,R14",
+          {
+            "BOM_Manufacturer Part": "0805_RESISTOR",
+            "puuid": "fbf329d518fe4535bfb2e4eb6ea7f8bf",
+            "uuid": "f226e3ed0d6d4494ad5a428136a63dac"
+          }
+        ],
+        [
+          "10k",
+          6,
+          "0805_RESISTOR",
+          "R4,R7,R8,R9,R15,R16",
+          {
+            "BOM_Manufacturer Part": "0805_RESISTOR",
+            "puuid": "fbf329d518fe4535bfb2e4eb6ea7f8bf",
+            "uuid": "f226e3ed0d6d4494ad5a428136a63dac"
+          }
+        ],
+        [
+          "4,7k",
+          3,
+          "0805_RESISTOR",
+          "R10,R11,R12",
+          {
+            "BOM_Manufacturer Part": "0805_RESISTOR",
+            "puuid": "fbf329d518fe4535bfb2e4eb6ea7f8bf",
+            "uuid": "f226e3ed0d6d4494ad5a428136a63dac"
+          }
+        ],
+        [
+          "100R",
+          1,
+          "0805_RESISTOR",
+          "R17",
+          {
+            "BOM_Manufacturer Part": "0805_RESISTOR",
+            "puuid": "fbf329d518fe4535bfb2e4eb6ea7f8bf",
+            "uuid": "f226e3ed0d6d4494ad5a428136a63dac"
+          }
+        ],
+        [
+          "RESET",
+          2,
+          "KEY-3.0*6.0",
+          "RESET,TEST",
+          {
+            "BOM_Supplier Part": "C46491",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "3x6x2.5Red head high temperature",
+            "puuid": "f631a52ad36c4c439024df467d234504",
+            "uuid": "9667b4c8c2a179a9bf96c8b8066d1745"
+          }
+        ],
+        [
+          "SOLDERJUMPERCLOSED",
+          1,
+          "SOLDERJUMPER_CLOSEDWIRE",
+          "SJ1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "534bd63eb417440fbe70ee06237e31f5",
+            "uuid": "3e8a854a855b4703869d72763cd68dc3"
+          }
+        ],
+        [
+          "BSS138",
+          2,
+          "BSS138",
+          "T1,T2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8c4ddd7d96e64dfab1a083621c41a85e",
+            "uuid": "f1e41659799e41d99d4e2fcadc70469b"
+          }
+        ],
+        [
+          "ATMEGA1608-AFR",
+          1,
+          "TQFP-32_7X7X08P",
+          "U1",
+          {
+            "BOM_Manufacturer": "Microchip",
+            "BOM_Manufacturer Part": "ATMEGA4808-AFR",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Supplier Part": "ATMEGA4808-AFRCT-ND",
+            "puuid": "4962995236984d298d0e6253f85817a9",
+            "uuid": "74d9dc10bbe64ab29ec54a475ab4a6f7"
+          }
+        ],
+        [
+          "CH340C",
+          1,
+          "CH340C",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WCH",
+            "BOM_Manufacturer Part": "CH340C",
+            "BOM_Supplier Part": "C84681",
+            "BOM_Paste Type": "recommend",
+            "puuid": "abf7bf4cb059444397e2c88cc4aea448",
+            "uuid": "ebdce2da92444e34954f507ead8d8b17"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-3.3",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C6186",
+            "puuid": "aca140069d2f46238823fd96aa45aad9",
+            "uuid": "588dac9f81df8f83843513972963b454"
+          }
+        ],
+        [
+          "MPU6050-YJLTY",
+          1,
+          "QFN-24_L4.0-W4.0-P0.50-BL-EP2.7",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2912107",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "MPU6050-YJLTY",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "80f55466c5b449cd8bd7bd5528907ee0",
+            "uuid": "3cc9ba716f874e4ea9f1020722a1063e"
+          }
+        ],
+        [
+          "KF301-4P",
+          8,
+          "KF301-4P",
+          "U5,U6,U7,U8,U9,U10,U11,U12",
+          {
+            "BOM_Manufacturer Part": "KF301",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "67e62fa529da40d7881fddd94d961dc1",
+            "uuid": "ec8ccaf831434598a1602f598573214b"
+          }
+        ],
+        [
+          "MICRO USB",
+          1,
+          "MICRO-USB_MICRO-USB-32",
+          "U13",
+          {
+            "BOM_Supplier": "Conrad",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "1401794 - 62",
+            "puuid": "59265bc2edec49f18a089957df51d2e5",
+            "uuid": "405b28d848844021b084a28ef02433c2"
+          }
+        ],
+        [
+          "DS1307Z+",
+          1,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+          "U14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C1520446",
+            "BOM_Manufacturer": "MAXIM(美信)",
+            "BOM_Manufacturer Part": "DS1307Z+",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "71450838f2174409b429143f6acc9d2a",
+            "uuid": "a9e6d24bd0444ae3a73a63a8d86b144e"
+          }
+        ],
+        [
+          "32.768KHz",
+          2,
+          "OSC-SMD_3215",
+          "X1,X2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C409356",
+            "BOM_Manufacturer": "TXC Corp",
+            "BOM_Manufacturer Part": "AH03270014",
+            "puuid": "1d78a7ee8c394430a0db609e9c31d9c7",
+            "uuid": "d9bb083abfc14583a00c0f49e0a1ec1a"
+          }
+        ]
+      ],
+      "updateTime": 1680988138,
+      "createTime": 1666614377,
+      "histories": [],
+      "created_at": "2022-10-24 14:26:17",
+      "updated_at": "2023-04-08 23:08:58"
+    },
+    {
+      "uuid": "1079228c3e60d9ca4b3b525899205d58",
+      "title": "PCB_Development Board V1.2",
+      "filename": "PCB_Development Board V1.2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "00c4a0b803f045d2b367f3d1e844d2b4": 18,
+        "d949fb0d6d084bf6a64997d6d0b2ddc8": 1,
+        "abf7bf4cb059444397e2c88cc4aea448": 1,
+        "534bd63eb417440fbe70ee06237e31f5": 1,
+        "4be115ce96324d87926efa83497891ea": 1,
+        "4962995236984d298d0e6253f85817a9": 1,
+        "87eb4f3722b74f8d8d8aedd070854f15": 5,
+        "fbf329d518fe4535bfb2e4eb6ea7f8bf": 17,
+        "71450838f2174409b429143f6acc9d2a": 1,
+        "a719ec543cba4c9a80134ea895503a84": 4,
+        "1d78a7ee8c394430a0db609e9c31d9c7": 2,
+        "f631a52ad36c4c439024df467d234504": 2,
+        "8c4ddd7d96e64dfab1a083621c41a85e": 2,
+        "59265bc2edec49f18a089957df51d2e5": 1,
+        "b350a5ab74404fc5bfc6e7057bd9bacd": 1,
+        "3a2d3279c0b54ef0b376eef35ec6a130": 1,
+        "cca5c7a47e5342959e8bcdeb801ba32c": 1,
+        "b1a056b061d14265aafead66fd903fef": 1,
+        "aca140069d2f46238823fd96aa45aad9": 1,
+        "80f55466c5b449cd8bd7bd5528907ee0": 1,
+        "67e62fa529da40d7881fddd94d961dc1": 8
+      },
+      "BOM": [],
+      "updateTime": 1701297019,
+      "createTime": 1666627816,
+      "histories": [],
+      "created_at": "2022-10-24 18:10:16",
+      "updated_at": "2023-11-29 23:30:19"
+    }
+  ],
+  "sort": [],
+  "title": "Development Board V1.2",
+  "foldername": "Development Board V1.2",
+  "schfilename": "Development Board V1.2.json",
+  "schfilemtime": 1734818155454.2693
+}
