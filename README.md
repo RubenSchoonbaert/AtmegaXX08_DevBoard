@@ -82,6 +82,17 @@ Getting Started
 License
 
 This project is open-source hardware. Feel free to use, modify, and share under the terms of the accompanying license.
+
+Credits
+
+This project was inspired by the incredible work of:
+
+    Miraculix200 for their contributions to hardware design on OSHWLab.
+    https://oshwlab.com/Miraculix200
+    
+    Stefan Wagner for sharing innovative projects and designs on Hackaday
+    https://hackaday.io/wagiminator
+
 Schematic
 
 ![Schematic_Development Board V1 2](https://github.com/user-attachments/assets/2157d41b-c878-45c4-a0d8-6a27f3cb4c3a)
